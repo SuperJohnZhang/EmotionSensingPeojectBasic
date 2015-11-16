@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EmotionSensingProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_connection_setting">ConnectionSetting</string>
+    <color name="white"> #FFFFFF </color>
+    <color name="light_purple">#DDADEE</color>
+    <color name="light_red">#F08888</color>
+    <color name="light_yellow">#F4F08E</color>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+
+</resources>

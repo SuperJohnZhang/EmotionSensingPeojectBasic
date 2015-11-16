@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.superjohn.emotionsensingproject.ConnectionSetting">
+
+    <TextView
+        android:text="The following is the connection settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_red"/>
+
+    <TextView
+        android:id="@+id/Locol_Info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/light_purple"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please insert the ip address of server"
+        android:background="@color/light_yellow"
+        />
+
+
+    <EditText
+        android:id="@+id/server_ip_address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="175.159.105.32"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please insert the port of server"
+        android:background="@color/light_yellow"
+        />
+
+
+    <EditText
+        android:id="@+id/server_port"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="6000"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connect"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <Button
+            android:id = "@+id/sendButtion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
